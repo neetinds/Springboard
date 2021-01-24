@@ -14,7 +14,12 @@ Data Acquisition
 
 Statistics
 
-- Experimental design & Hypothesis testing & Normality test
+3. Experimental design & Hypothesis testing & Normality test
+   Frequentist Inference Part 1: Sampling for the Normal distribution, sampling distributions, Central Limit Theorem, and confidence intervals
+   https://github.com/neetinds/Springboard/blob/master/frequentist_inference/dataFrequentist%20Inference%20Case%20Study%20-%20Part%20A.ipynb
+   
+   Frequentist Inference Part 2: Frequentist hypothesis testing using a hospital's medical charges dataset
+   https://github.com/neetinds/Springboard/blob/master/frequentist_inference/dataFrequentist%20Inference%20Case%20Study%20-%20Part%20B.ipynb
 	
 Supervised Learning
 
