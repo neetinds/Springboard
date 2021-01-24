@@ -6,7 +6,8 @@ Table of Contents
 
 Data Acquisition
 
-- SQL queries
+1. SQL queries : Answer questions using a country club database
+  https://github.com/neetinds/Springboard/blob/master/SQL_Mini_Pro/SQLMiniProject.sql
 	
 - JSON manipulation & extraction
 	
