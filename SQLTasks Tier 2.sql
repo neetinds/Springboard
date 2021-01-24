@@ -50,7 +50,7 @@ Return the facid, facility name, member cost, and monthly maintenance of the
 facilities in question. */
 SELECT `facid`,`name`,`membercost`,`monthlymaintenance`
 FROM `Facilities` 
-WHERE `membercost`< (`monthlymaintenance`*.20)
+WHERE `membercost`<= (`monthlymaintenance`*.20)
 
 /* Q4: Write an SQL query to retrieve the details of facilities with ID 1 and 5.
 Try writing the query without using the OR operator. */
@@ -124,7 +124,7 @@ INNER JOIN Facilities ON Bookings.facid = Facilities.facid
 AND Bookings.starttime LIKE  '2012-09-14%'
 INNER JOIN Members ON Bookings.memid = Members.memid
 )sub
-WHERE sub.cost >30
+WHERE sub.cost => 30
 ORDER BY sub.cost DESC
 
 /* PART 2: SQLite 
@@ -157,7 +157,7 @@ WHERE sub2.total_revenue <1000
 SELECT m.surname, m.firstname, m.recommendedby AS recomender_id, r.surname AS recomender_surname, r.firstname AS recomender_firstname
 FROM Members AS m
 LEFT JOIN Members AS r ON m.recommendedby = r.memid
-WHERE m.recommendedby != 0
+WHERE m.recommendedby > 0
 ORDER BY r.surname, r.firstname;
 
 /* Q12: Find the facilities with their usage by member, but not guests */
@@ -165,19 +165,31 @@ SELECT b.facid, COUNT( b.memid ) AS mem_usage, f.name
 FROM (
 SELECT facid, memid
 FROM Bookings
-WHERE memid !=0
+WHERE memid > 0
 ) AS b
 LEFT JOIN Facilities AS f ON b.facid = f.facid
 GROUP BY b.facid;
 
 /* Q13: Find the facilities usage by month, but not guests */
-SELECT b.months, COUNT( b.memid ) AS mem_usage
-FROM (
-SELECT MONTH( starttime ) AS months, memid
-FROM Bookings
-WHERE memid !=0
-) AS b
-GROUP BY b.months;
-
-/* ECT019421*/
+SELECT f.name,concat(m.firstname,' ',m.surname) as Member,
+count(f.name) as bookings,
+sum(case when month(starttime) = 1 then 1 else 0 end) as Jan,
+sum(case when month(starttime) = 2 then 1 else 0 end) as Feb,
+sum(case when month(starttime) = 3 then 1 else 0 end) as Mar,
+sum(case when month(starttime) = 4 then 1 else 0 end) as Apr,
+sum(case when month(starttime) = 5 then 1 else 0 end) as May,
+sum(case when month(starttime) = 6 then 1 else 0 end) as Jun,
+sum(case when month(starttime) = 7 then 1 else 0 end) as Jul,
+sum(case when month(starttime) = 8 then 1 else 0 end) as Aug,
+sum(case when month(starttime) = 9 then 1 else 0 end) as Sep,
+sum(case when month(starttime) = 10 then 1 else 0 end) as Oct,
+sum(case when month(starttime) = 11 then 1 else 0 end) as Nov,
+sum(case when month(starttime) = 12 then 1 else 0 end) as Decm
+FROM Members m
+inner join Bookings bk on bk.memid = m.memid
+inner join Facilities f on f.facid = bk.facid
+where m.memid>0
+and year(starttime) = 2012
+group by f.name,concat(m.firstname,' ',m.surname)
+order by f.name,m.surname,m.firstname
 
