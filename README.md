@@ -1,6 +1,6 @@
 
 # Springboard 
-Neetin Verma work on data science projects completed during from Springboard curriculum 2020/2021
+This repository hosts all projects/assignments completed by Neetin Verma as part of the Springboard Data Science Career Track program 2020/2021
 
 Table of Contents
 
