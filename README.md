@@ -34,15 +34,19 @@ Projects:
 8. Ski Resort Mini Project:
 
    Data Wrangling
+   
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Two%20-%20Data%20Wrangling/02_data_wrangling.ipynb
    
    Exploratory Data Analysis
+   
    https://github.com/neetinds/Springboard/blob/master/03_exploratory_data_analysis.ipynb
    
    Preprocessing & Training
+   
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Four%20-%20Preprocessing%20%26%20Training/04_preprocessing_and_training.ipynb
    
    Modeling
+   
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Five%20-%20Modeling/05_modeling.ipynb
    
 9. London Borough: Which boroughs of London have seen the greatest increase in housing prices, on average, over the last two decades? 
@@ -56,7 +60,9 @@ Projects:
 
 10. Generating HTML Report: Using Pandas Profiling on NASA Meteorites Data.
     https://github.com/neetinds/Springboard/blob/master/meteorites.ipynb
+    
     Output HTML Report:
+    
     https://github.com/neetinds/Springboard/blob/master/example.html
     
     
