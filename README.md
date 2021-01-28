@@ -1,10 +1,7 @@
 Hello 👋,
 
-This repository hosts all projects/assignments completed by Neetin Verma 😄 as part of my Springboard Data Science Career Track program 2020/2021 using different python data science libararies used to carry out data engineering. I have a passion for learning and sharing my knowledge with others a public as possible.
+This repository hosts all projects/assignments completed by **Neetin Verma** as part of my Springboard Data Science Career Track program 2020/2021 using different python libararies used to solve different **Data Science** problems. I have a passion for learning and sharing my knowledge.
 
- <p>
-  <img width="10" align='left' src="****************************=true">
-</p>
  
 # Table of Contents
 
