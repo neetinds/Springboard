@@ -32,12 +32,16 @@ Supervised Learning
 Projects:
 
 8. Ski Resort Mini Project:
+
    Data Wrangling
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Two%20-%20Data%20Wrangling/02_data_wrangling.ipynb
+   
    Exploratory Data Analysis
    https://github.com/neetinds/Springboard/blob/master/03_exploratory_data_analysis.ipynb
+   
    Preprocessing & Training
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Four%20-%20Preprocessing%20%26%20Training/04_preprocessing_and_training.ipynb
+   
    Modeling
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Five%20-%20Modeling/05_modeling.ipynb
    
