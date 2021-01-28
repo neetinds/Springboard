@@ -45,3 +45,11 @@ Projects:
    Modeling
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Five%20-%20Modeling/05_modeling.ipynb
    
+9. London Borough: Which boroughs of London have seen the greatest increase in housing prices, on average, over the last two decades? 
+   Data Science projects generally adhere to the four stages of Data Science Pipeline:
+   1. Sourcing and loading
+   2. Cleaning, transforming, and visualizing
+   3. Modeling
+   4. Evaluating and concluding 
+    Notebook:
+    https://github.com/neetinds/Springboard/blob/master/London%20Boroughs/London%20Boroughs%20Notebook.ipynb
