@@ -53,3 +53,10 @@ Projects:
    4. Evaluating and concluding 
     Notebook:
     https://github.com/neetinds/Springboard/blob/master/London%20Boroughs/London%20Boroughs%20Notebook.ipynb
+
+10. Generating HTML Report: Using Pandas Profiling on NASA Meteorites Data.
+    https://github.com/neetinds/Springboard/blob/master/meteorites.ipynb
+    Output HTML Report:
+    https://github.com/neetinds/Springboard/blob/master/example.html
+    
+    
