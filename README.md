@@ -23,8 +23,13 @@ Statistics
 	
 Supervised Learning
 
-- Linear regression
+5. Linear regression
 
- -  Logistic regression
+6. Logistic regression
  
- -  Naive bayes
+7. Naive bayes
+
+Projects:
+
+8. Ski Resort Mini Project:
+   
