@@ -1,6 +1,7 @@
+Hello 👋,
 
-# Springboard 
-This repository hosts all projects/assignments completed by Neetin Verma as part of the Springboard Data Science Career Track program 2020/2021
+This repository hosts all projects/assignments completed by Neetin Verma 😄 as part of my Springboard Data Science Career Track program 2020/2021 using different python data science libararies used to carry out data engineering. I have a passion for learning and sharing my knowledge with others a public as possible.
+
 
 Table of Contents
 
@@ -21,31 +22,22 @@ Statistics:
 4. Frequentist Inference Part 2: Frequentist hypothesis testing using a hospital's medical charges dataset
    https://github.com/neetinds/Springboard/blob/master/frequentist_inference/dataFrequentist%20Inference%20Case%20Study%20-%20Part%20B.ipynb
 	
-Supervised Learning
 
-5. Linear regression
+Projects: Ski Resort Mini Project:
 
-6. Logistic regression
- 
-7. Naive bayes
-
-Projects:
-
-8. Ski Resort Mini Project:
-
-   Data Wrangling
+5. Data Wrangling
    
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Two%20-%20Data%20Wrangling/02_data_wrangling.ipynb
    
-   Exploratory Data Analysis
+6. Exploratory Data Analysis
    
    https://github.com/neetinds/Springboard/blob/master/03_exploratory_data_analysis.ipynb
    
-   Preprocessing & Training
+7. Preprocessing & Training
    
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Four%20-%20Preprocessing%20%26%20Training/04_preprocessing_and_training.ipynb
    
-   Modeling
+8. Modeling
    
    https://github.com/neetinds/Springboard/blob/master/Ski_Resort/Step%20Five%20-%20Modeling/05_modeling.ipynb
    
